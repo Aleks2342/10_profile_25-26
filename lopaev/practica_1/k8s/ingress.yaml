@@ -16,7 +16,7 @@ spec:
           service:
             name: flask-app-service  # Имя сервиса для перенаправления трафика
             port:
-              number: 9443      # Порт сервиса
+              number: 5000      # Порт сервиса
   # tls:                        # (Опционально) Настройки TLS
   # - hosts:
   #   - your-domain.com
