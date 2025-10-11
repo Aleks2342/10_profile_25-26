@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main',
+                git branch: 'patch-1',
                     url: 'https://github.com/Aleks2342/10_profile_25-26.git'
             }
         }
